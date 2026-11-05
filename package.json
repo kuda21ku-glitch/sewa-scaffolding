@@ -1,0 +1,13 @@
+{
+  "name": "sewa-scaffolding",
+  "version": "1.0.0",
+  "description": "Aplikasi manajemen penyewaan scaffolding (tanpa dependensi npm)",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node --no-warnings server/index.js",
+    "dev": "node --no-warnings --watch server/index.js",
+    "test": "node --no-warnings test/smoke.js"
+  }
+}
